@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Control</title>
+<style>
+  :root { --bg: #f7f7f5; --ink: #1d1d1f; --muted: #5f6368; --line: #e3e3e0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161618; --ink: #f2f2f2; --muted: #a0a0a6; --line: #2c2c30; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; letter-spacing: -.02em; }
+  h2 { font-size: 19px; margin: 36px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Home Control</h1>
+  <p class="muted">A private control panel for one household.</p>
+
+  <p>Home Control is a personal app that runs on the owner's own computer at home. It lets the owner control their own
+    lights, shades, speakers, TVs, sprinklers and Google Nest devices from one page. It is not offered to the public and has
+    no other users. See the <a href="#privacy">privacy policy</a> below.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p class="muted">Last updated November 7, 2026</p>
+  <ul>
+    <li><strong>Who uses it:</strong> only the household that runs it. There are no accounts and no sign-ups.</li>
+    <li><strong>What it accesses:</strong> with the owner's permission, it uses Google's Smart Device Management API to read
+      and control the owner's own Nest devices, such as thermostat settings and camera live views.</li>
+    <li><strong>Where data is kept:</strong> Google sign-in tokens are stored only on the owner's computer, in a file only that
+      computer's account can read. Device status is used to show the panel and is not kept.</li>
+    <li><strong>Camera video:</strong> shown live only while the owner is watching. It is never recorded or saved.</li>
+    <li><strong>Sharing:</strong> no data is sold, shared or sent to anyone other than Google, which provides the devices.</li>
+    <li><strong>Removing access:</strong> the owner can turn off access at any time in their Google Account under
+      Security, Third-party apps and services, or in the Google Home app.</li>
+    <li><strong>Contact:</strong> use the support email shown on the Google sign-in screen for Home Control.</li>
+  </ul>
+</main>
+</body>
+</html>
